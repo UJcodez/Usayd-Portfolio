@@ -44,7 +44,7 @@ with st.container():
 
             """
             )
-        with right_column:
+        #with right_column:
             #st_lottie(lottie_coding, height=300)
 
 # Skills and Achievements
@@ -63,7 +63,7 @@ with st.container():
             """
             )
         
-    with left_column:
+    #with left_column:
         #st_lottie(lottie_program, height=300)
 
 # Significant Projects
