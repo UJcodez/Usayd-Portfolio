@@ -154,6 +154,9 @@ with st.container():
             st.text("")
             st.text("")
             st.text("")
+            st.text("")
+                    
+                 
 
         #write title and description
         st.header("Astro Wars - Python Game")
