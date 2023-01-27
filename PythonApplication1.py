@@ -3,7 +3,7 @@ import json
 import requests
 import streamlit as st
 from PIL import Image
-# from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie
 
 
 st.set_page_config(page_title="Usayd's Webpage", page_icon=":tada:", layout="wide")
@@ -16,10 +16,10 @@ def load_lottieurl(url):
     return r.json()
 
 # load assets
-#lottie_coding = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_dT1E1P.json")
-#lottie_program = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_es4p9zph.json")
-#lottie_boat = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fBnHxig6NO.json")
-#lottie_space = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_4tg3fb79.json")
+lottie_coding = load_lottieurl("https://assets6.lottiefiles.com/packages/lf20_dT1E1P.json")
+lottie_program = load_lottieurl("https://assets2.lottiefiles.com/packages/lf20_es4p9zph.json")
+lottie_boat = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fBnHxig6NO.json")
+lottie_space = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_4tg3fb79.json")
 
 # Header
 with st.container():
@@ -45,7 +45,7 @@ with st.container():
             """
             )
         #with right_column:
-            #st_lottie(lottie_coding, height=300)
+            st_lottie(lottie_coding, height=300)
 
 # Skills and Achievements
 with st.container():
