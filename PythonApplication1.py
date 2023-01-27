@@ -44,8 +44,8 @@ with st.container():
 
             """
             )
-        #with right_column:
-            st_lottie(lottie_coding, height=300)
+    with right_column:
+        st_lottie(lottie_coding, height=300)
 
 # Skills and Achievements
 with st.container():
