@@ -12,7 +12,7 @@ with st.container():
     st.subheader("Welcome to my personal website :wave:")
     st.title("A future computer engineer studying at TMU")
     st.write("I have designed this website to demostrate my capabilities and understanding of code")
-    st.write("[My Resume >](https://docs.google.com/document/d/1aCyPp37RvslOjPnqDrfpfWAEkk-zpR3_SL7CUCXzRaI/edit)")
+    st.write("[My Resume >](file:///C:/Users/Test/Downloads/White%20Gold%20Elegant%20Minimalist%20ATS%20Data%20Analyst%20Resume%20CV%20A4%20Printable%20(2).pdf)")
 
 # What I Do
 with st.container():
@@ -24,7 +24,7 @@ with st.container():
         st.write(
             """
             I am a first year computer engineering student enrolled at Toronto Metropolitan University
-            - Current GPA: 2.93 (Semester 1)
+            - Current GPA: TBD (Semester 1)
             - Studying both software and hardware systems
             - Significant courses include: Programming Fundamentals, Electric Circuit Analysis, Engineering Economics
 
